@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/olahpesan_feed_card"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="3dp"
+    android:clickable="true"
+    >
+
+    <LinearLayout
+        android:background="?attr/selectableItemBackground"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/olahpesan_feed_card_topic_ic"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_margin="8dp"
+            android:contentDescription="TODO"
+            android:src="@drawable/ic_account_circle_black_48dp" />
+
+        <LinearLayout
+            android:layout_width="245dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/olahpesan_feed_card_topic_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:firstBaselineToTopHeight="28dp"
+                android:text="@string/lorem_author_name"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Headline6"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/olahpesan_feed_card_summary"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="2"
+                android:text="@string/lorem_chat_summary"
+                android:textAppearance="@style/TextAppearance.MaterialComponents.Caption"
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_vertical|end"
+            android:layout_marginEnd="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/olahpesan_feed_card_recent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:firstBaselineToTopHeight="28dp"
+                android:text="32 mins"
+                android:textAlignment="textEnd" />
+
+            <TextView
+                android:id="@+id/olahpesan_feed_card_count"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end"
+                android:background="@drawable/shape_chat_count"
+                android:text="1"
+                android:textAlignment="center"
+                android:textColor="#ffffff" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>
