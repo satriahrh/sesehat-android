@@ -21,5 +21,6 @@
         android:id="@+id/navigation_more"
         android:name="id.sesehat.ui.more.MoreFragment"
         android:label="@string/title_more"
+        tools:layout="@layout/fragment_more"
         />
 </navigation>
