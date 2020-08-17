@@ -1,6 +1,5 @@
 package id.sesehat.adapter
 
-import android.content.Context
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -9,8 +8,8 @@ import androidx.recyclerview.widget.RecyclerView
 import id.sesehat.model.Post
 import kotlinx.android.synthetic.main.home_feed_card.view.*
 
-class PostAdapter(val context: Context, private val objects: ArrayList<Post>) :
-        RecyclerView.Adapter<PostAdapter.ViewHolder>() {
+class PostFeedAdapter(private val objects: ArrayList<Post>) :
+        RecyclerView.Adapter<PostFeedAdapter.ViewHolder>() {
 
     override fun getItemCount(): Int {
         return this.objects.count()

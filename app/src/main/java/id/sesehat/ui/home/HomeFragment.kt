@@ -10,7 +10,7 @@ import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import id.sesehat.R
-import id.sesehat.adapter.PostAdapter
+import id.sesehat.adapter.PostFeedAdapter
 import id.sesehat.model.Post
 import id.sesehat.model.User
 
@@ -69,7 +69,7 @@ class HomeFragment : Fragment() {
 
         loadMorePost()
         val layoutManager = LinearLayoutManager(context)
-        val postAdapter = PostAdapter(context!!, postList)
+        val postAdapter = PostFeedAdapter(postList)
         val recyclerView = root.findViewById<RecyclerView>(R.id.home_feed)
         recyclerView.setHasFixedSize(true)
         recyclerView.layoutManager = layoutManager
