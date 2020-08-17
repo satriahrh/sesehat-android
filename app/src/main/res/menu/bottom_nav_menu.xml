@@ -16,4 +16,8 @@
         android:icon="@drawable/ic_library_books_black_24dp"
         android:title="@string/title_records" />
 
+    <item
+        android:id="@+id/navigation_more"
+        android:icon="@drawable/ic_more_vert_black_24dp"
+        android:title="@string/title_more" />
 </menu>

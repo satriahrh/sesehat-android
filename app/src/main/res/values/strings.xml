@@ -3,6 +3,7 @@
     <string name="title_home">Jelajah</string>
     <string name="title_olahpesan">Olahpesan</string>
     <string name="title_records">Catatan</string>
+    <string name="title_more">Lainnya</string>
     <string name="post_creation_autofillhints">Cerita hari ini ...</string>
     <string name="lorem_paragraph_short">This example type scale uses the Roboto typeface for all headlines, subtitles, body, and captions, creating a cohesive typography experience. Hierarchy is communicated through ...</string>
     <string name="lorem_author_name">Satria H R Harsono</string>
