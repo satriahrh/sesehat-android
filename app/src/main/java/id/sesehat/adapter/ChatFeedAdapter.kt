@@ -6,22 +6,22 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import id.sesehat.R
 import id.sesehat.model.Chat
-import kotlinx.android.synthetic.main.olahpesan_feed_card.view.*
+import kotlinx.android.synthetic.main.olahpesan_chat_feed.view.*
 
 class ChatFeedAdapter(private val objects: ArrayList<Chat>) :
         RecyclerView.Adapter<ChatFeedAdapter.ViewHolder>() {
 
     class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
-        val topicIc = view.olahpesan_feed_card_topic_ic
-        val topicName = view.olahpesan_feed_card_topic_name
-        val summary = view.olahpesan_feed_card_summary
-        val recent = view.olahpesan_feed_card_recent
-        val count = view.olahpesan_feed_card_count
+        val topicIc = view.olahpesan_chat_feed_topic_ic
+        val topicName = view.olahpesan_chat_feed_topic_name
+        val summary = view.olahpesan_chat_feed_summary
+        val recent = view.olahpesan_chat_feed_recent
+        val count = view.olahpesan_chat_feed_count
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ChatFeedAdapter.ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
-        val view = layoutInflater.inflate(R.layout.olahpesan_feed_card, parent, false)
+        val view = layoutInflater.inflate(R.layout.olahpesan_chat_feed, parent, false)
         return ViewHolder(view)
     }
 
