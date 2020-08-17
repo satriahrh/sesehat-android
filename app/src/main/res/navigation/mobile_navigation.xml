@@ -18,12 +18,6 @@
         tools:layout="@layout/fragment_olahpesan" />
 
     <fragment
-        android:id="@+id/navigation_records"
-        android:name="id.sesehat.ui.records.RecordsFragment"
-        android:label="@string/title_records"
-        tools:layout="@layout/fragment_records" />
-
-    <fragment
         android:id="@+id/navigation_more"
         android:name="id.sesehat.ui.more.MoreFragment"
         android:label="@string/title_more"
