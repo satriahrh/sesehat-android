@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import id.sesehat.R
 import androidx.recyclerview.widget.RecyclerView
 import id.sesehat.model.Post
-import kotlinx.android.synthetic.main.home_feed_card.view.*
+import kotlinx.android.synthetic.main.home_post_feed.view.*
 
 class PostFeedAdapter(private val objects: ArrayList<Post>) :
         RecyclerView.Adapter<PostFeedAdapter.ViewHolder>() {
@@ -24,14 +24,14 @@ class PostFeedAdapter(private val objects: ArrayList<Post>) :
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         val layoutInflater = LayoutInflater.from(parent.context)
-        val view = layoutInflater.inflate(R.layout.home_feed_card, parent, false)
+        val view = layoutInflater.inflate(R.layout.home_post_feed, parent, false)
         return ViewHolder(view)
     }
 
     class ViewHolder(val view: View) : RecyclerView.ViewHolder(view) {
-        var authorNameView = this.view.home_feed_header_author
-        var authorIcView = this.view.home_feed_header_thumbnail
-        var postScopeView = this.view.home_feed_header_scope
-        var postBodyView = this.view.home_feed_item_body
+        var authorNameView = this.view.home_post_feed_author_name
+        var authorIcView = this.view.home_post_feed_author_ic
+        var postScopeView = this.view.home_post_feed_scope
+        var postBodyView = this.view.home_post_feed_body_text
     }
 }
