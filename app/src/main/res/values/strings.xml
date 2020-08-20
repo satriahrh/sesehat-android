@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Sesehat</string>
+    <string name="title_home">Jelajah</string>
+    <string name="title_olahpesan">Olahpesan</string>
+    <string name="title_more">Lainnya</string>
+    <string name="post_creation_autofillhints">Cerita hari ini ...</string>
+    <string name="lorem_paragraph_short">This example type scale uses the Roboto typeface for all headlines, subtitles, body, and captions, creating a cohesive typography experience. Hierarchy is communicated through ...</string>
+    <string name="lorem_author_name">Satria H R Harsono</string>
+    <string name="lorem_post_scope">RSIA Bina Medika - Bidan Erni</string>
+    <string name="lorem_post_impression"><strong>Disukai 453 orang</strong> dan dikomentari 321 kali</string>
+    <string name="lorem_chat_summary">There\'s a lot to consider! You need to fix them by this week. Think about customer, they will blam us for sure.</string>
+    <string name="todo">TODO</string>
+</resources>
